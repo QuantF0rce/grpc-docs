@@ -1,6 +1,6 @@
 {
-  "short_name": "grpc-docs",
-  "name": "grpc-docs",
+  "short_name": "quant-grpc-docs",
+  "name": "quant-grpc-docs",
   "icons": [
     {
       "src": "favicon.ico",
