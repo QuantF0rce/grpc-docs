@@ -112,11 +112,11 @@ export const PseudomutoProtocGenDoc = ({
             f.setTypeId(getPrimitiveTypename(el.fullType))
             f.setName(el.name || el.fullType)
             f.setDescription(cleanDescription(el.description))
-            if (el.isoneof) {
+            if (el.isoneof && el.label.indexOf('optional') == -1) {
               f.setOneOf(el.oneofdecl)
             }
             f.setRepeated(el.label.indexOf('repeated') !== -1)
-            f.setOptional(false) // TODO
+            f.setOptional(el.label.indexOf('optional') !== -1) // TODO
             f.setRequired(false) // TODO
             typeDescription.addFields(f)
           })

@@ -2,7 +2,7 @@
 
 [ "$(ls -A /input)" ] && \
   (\
-      protoc -I /input -I /deps/googleapis/ --doc_out=/output-gen --doc_opt=json,description.json $(find /input -name *.proto);\
+      protoc -I /input -I /deps/googleapis/ --experimental_allow_proto3_optional --doc_out=/output-gen --doc_opt=json,description.json $(find /input -name *.proto);\
       cp -r /output-gen/* /grpc-docs/example/build/example-descriptors/ \
   ) \
   || echo "description generation skipped"
