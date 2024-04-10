@@ -24,7 +24,7 @@ export const ClientLibraries = (props: ClientLibrariesProps) => {
     <SectionWrapper>
       <TwoPaneWrapper direction='row'>
         <Pane>
-          <SectionTitle>Client Libraries</SectionTitle>
+          <SectionTitle>Client Librariess</SectionTitle>
           The API is implemented using gRPC framework. You can generate the SDK
           on your own -{' '}
           <a href='https://grpc.io/docs/languages/'>
