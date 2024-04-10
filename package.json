@@ -1,6 +1,6 @@
 {
   "name": "quant-grpc-docs",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "gRPC API Documentation",
   "author": "quantforce",
   "license": "MIT",
