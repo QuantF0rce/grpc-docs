@@ -9505,6 +9505,26 @@ qs@6.9.6:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
   integrity sha512-TIRk4aqYLNoJUbd+g2lEdz5kLWIuTMRagAXxl78Q0RiVjAOugHmeKNGdd3cwo/ktpf9aL9epCfFqWDEKysUlLQ==
 
+quant-grpc-docs@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/quant-grpc-docs/-/quant-grpc-docs-1.3.6.tgz#33d64949d24082f80225a9cc17a2499e118419c5"
+  integrity sha512-MhtpPmp96bJ4DtHDUfGFrkl0uNZYmD4L0rzIPPnbUb+5/2bEryQkfV2ZOzWxYv6Z8WnFQFKZ/B12hFqwjwkATA==
+  dependencies:
+    "@improbable-eng/grpc-web" "^0.15.0"
+    "@types/minimatch" "^3.0.5"
+    GendocuPublicApis "https://git.gendocu.com/gendocu/GendocuPublicApis.git#master"
+    google-protobuf "^3.21.2"
+    grpc-docs "^1.0.6"
+    js-yaml "^4.1.0"
+    minimatch "^3.0.4"
+    react-copy-to-clipboard "^5.0.4"
+    react-dom "^16.13.1"
+    react-is "^16.8.0"
+    react-syntax-highlighter "^15.4.5"
+    rollup "^0.60"
+    rollup-plugin-smart-asset "^2.1.2"
+    styled-components "^5.3.3"
+
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"

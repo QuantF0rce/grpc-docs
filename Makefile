@@ -6,4 +6,5 @@ deploy:
 	make deploy-docker
 deploy-docker:
 	docker build -t quantforce/grpc-docs -f docker/Dockerfile .
-	docker push quantforce/grpc-docs
+	docker tag quantforce/grpc-docs:latest quantforce/grpc-docs:v1.3.6
+	docker push quantforce/grpc-docs:v1.3.6
