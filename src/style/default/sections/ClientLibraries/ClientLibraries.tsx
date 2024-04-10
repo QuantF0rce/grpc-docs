@@ -51,7 +51,7 @@ const ClientLibrariesSelector = (
     <ClientLibrariesWrapper>
       <ClientLibrariesSelectorTitleWrapper>
         <ClientLibrariesSelectorTitle>
-          Client Libraries
+          Client Librariese
         </ClientLibrariesSelectorTitle>
         <ProgrammingLanguageSelector
           availableProgrammingLangs={props.availableSetupLangs}
