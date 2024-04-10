@@ -5070,15 +5070,15 @@ graceful-fs@^4.2.4, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://roadiehq.jfrog.io/artifactory/api/npm/roadiehq/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-grpc-docs@^1.0.6:
-  version "1.0.9"
-  resolved "https://roadiehq.jfrog.io/artifactory/api/npm/roadiehq/grpc-docs/-/grpc-docs-1.0.9.tgz#d2f56cf0bfbd68ea0fb7d0cc57fb0b20d8349e94"
-  integrity sha512-v/FsdZlEyebYx2DpPmUY4GtrrCov/C/pitc0m8q0OBR3WHpBcW44MSOrhh7NHGFgW5DhBRou6iGv2518+GKIDg==
+quant-grpc-docs@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/quant-grpc-docs/-/quant-grpc-docs-1.3.6.tgz#33d64949d24082f80225a9cc17a2499e118419c5"
+  integrity sha512-MhtpPmp96bJ4DtHDUfGFrkl0uNZYmD4L0rzIPPnbUb+5/2bEryQkfV2ZOzWxYv6Z8WnFQFKZ/B12hFqwjwkATA==
   dependencies:
     "@improbable-eng/grpc-web" "^0.15.0"
     "@types/minimatch" "^3.0.5"
-    GendocuPublicApis "git+https://git.gendocu.com/gendocu/GendocuPublicApis.git#master"
-    google-protobuf "^3.19.1"
+    GendocuPublicApis "https://git.gendocu.com/gendocu/GendocuPublicApis.git#master"
+    google-protobuf "^3.21.2"
     grpc-docs "^1.0.6"
     js-yaml "^4.1.0"
     minimatch "^3.0.4"
