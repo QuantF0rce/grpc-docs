@@ -265,6 +265,11 @@ const FieldTableRow = (props: {
                 repeated
               </FieldMarker>
             )}
+            {props.field.getOptional() && (
+              <FieldMarker markerType='optional' direction='right'>
+                optional
+              </FieldMarker>
+            )}
           </Fragment>
         )}
       </TdStyled>
@@ -339,7 +344,7 @@ const TrStyled = styled.tr`
 
 const FieldMarker = styled.div<{
   direction: 'left' | 'right'
-  markerType: 'oneof' | 'repeated'
+  markerType: 'oneof' | 'repeated' | 'optional'
 }>`
   display: inline-block;
   border-radius: 4px;
