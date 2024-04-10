@@ -1,6 +1,6 @@
 {
   "name": "quant-grpc-docs",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "gRPC API Documentation",
   "author": "quantforce",
   "license": "MIT",
@@ -73,9 +73,9 @@
     "@types/minimatch": "^3.0.5",
     "GendocuPublicApis": "https://git.gendocu.com/gendocu/GendocuPublicApis.git#master",
     "google-protobuf": "^3.21.2",
-    "quant-grpc-docs": "^1.3.6",
     "js-yaml": "^4.1.0",
     "minimatch": "^3.0.4",
+    "quant-grpc-docs": "^1.3.6",
     "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^16.13.1",
     "react-is": "^16.8.0",
