@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import { GRPCGenDocuAPIReference } from 'grpc-docs'
-import { GRPCSelfGeneratedAPIReference } from 'quant-grpc-docs'
+import { GRPCSelfGeneratedAPIReference } from 'grpc-docs'
 // import exampleDefinition from './example-definition.json'
 
 const App = () => {
