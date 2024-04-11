@@ -11,7 +11,7 @@ ENV PATH="/protoc-plugins/:${PATH}"
 RUN git clone --depth 1 https://github.com/googleapis/googleapis.git /deps/googleapis/
 RUN git clone --depth 1 https://github.com/quantf0rce/grpc-docs && \
     cd ./grpc-docs && \
-    yarn \
+    yarn && \
     cd example && \
     yarn
 RUN mkdir -p /output-gen
